@@ -1,0 +1,15 @@
+{
+  "name": "forex-scraper",
+  "version": "1.0.0",
+  "description": "API para fazer web scraping no site Forex Factory",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "https-proxy-agent": "^7.0.5",
+    "puppeteer": "^22.14.0"
+  }
+}
